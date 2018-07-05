@@ -1,0 +1,41 @@
+/* 
+    Created on : Jul 5, 2018, 8:25:35 PM
+    Author     : alex
+*/
+
+.title {
+    -fx-color: white;
+    -fx-font-family: System;
+    -fx-font-size: 24px;
+}
+
+
+.panic {
+    -fx-background-color: #ff753a;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+.panic:hover {
+    -fx-background-color: #fc0707;
+}
+
+.panic:pressed {
+    -fx-background-color: #ce5f2f;
+}
+
+.standard-btn {
+    -fx-color: white;
+    -fx-border-radius: 0px;
+    -fx-background-color: #dddddd;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+.standard-btn:hover {
+    -fx-background-color: lightgrey;
+}
+
+.standard-btn:pressed {
+    -fx-background-color: #aaaaaa;
+}
